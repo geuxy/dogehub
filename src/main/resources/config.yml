@@ -1,0 +1,52 @@
+#  _____                   _    _       _
+# |  __ \                 | |  | |     | |
+# | |  | | ___   __ _  ___| |__| |_   _| |__
+# | |  | |/ _ \ / _` |/ _ \  __  | | | | '_ \
+# | |__| | (_) | (_| |  __/ |  | | |_| | |_) |
+# |_____/ \___/ \__, |\___|_|  |_|\__,_|_.__/
+#                __/ |
+#               |___/
+# DOGEHUB configuration file.
+
+# prevent users from losing hunger.
+anti-hunger: true
+
+# prevent users from breaking blocks.
+anti-break: true
+
+# prevent users from dying in the void and teleporting them back to spawn.
+void-teleport: true
+
+# prevent users from taking damage, including fall damage.
+anti-damage: true
+
+# prevent users from interacting with certain blocks.
+anti-interact:
+  # Prevent interactions?
+  enabled: true
+
+  doors: true
+  trapdoors: true
+  chests: true
+  furnaces: true
+  tables: true
+  beacons: true
+  armor-stands: true
+  minecarts: true
+  dispensers: true
+  droppers: true
+  hoppers: true
+
+# The position/location where users spawn.
+spawn-position:
+  x: 0.0
+  y: 80
+  z: 0.0
+  yaw: -90.0
+  pitch: 0.0
+
+# What world should this plugin apply to?
+world: world
+
+reload: "&aSuccessfully reloaded configuration."
+lack: "&cNo permission."

@@ -1,0 +1,19 @@
+plugins {
+    id 'java'
+}
+
+group 'me.nasadoge'
+version '1.0'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compileJava.options.encoding = 'UTF-8'
+    compileOnly files('jars/spigot.jar')
+}
+
+test {
+    useJUnitPlatform()
+}

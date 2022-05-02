@@ -1,0 +1,8 @@
+main: me.nasadoge.DogeHub
+version: 1.0
+name: DogeHub
+author: nasadoge
+
+commands:
+  hub-reload:
+    description: Reloads the plugin!
